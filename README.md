@@ -20,24 +20,24 @@ API Snippet:
 - id": "3092154",
 - "neo_reference_id": "3092154",
 - "name": "(1996 VB3)",
-  "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3092154",
-  "absolute_magnitude_h": 22.1,
-  "estimated_diameter": {
-      "kilometers": {
-         "estimated_diameter_min": 0.1010543415,
-         "estimated_diameter_max": 0.2259643771
+- "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3092154",
+- "absolute_magnitude_h": 22.1,
+- "estimated_diameter": {
+      - "kilometers": {
+        -  "estimated_diameter_min": 0.1010543415,
+         - "estimated_diameter_max": 0.2259643771
                     },
-             "meters": {
-                 "estimated_diameter_min": 101.054341542,
-                 "estimated_diameter_max": 225.9643771094
+             - "meters": {
+                -  "estimated_diameter_min": 101.054341542,
+                -  "estimated_diameter_max": 225.9643771094
                     },
-             "miles": {
-                 "estimated_diameter_min": 0.0627922373,
-                 "estimated_diameter_max": 0.140407711
+             - "miles": {
+                -  "estimated_diameter_min": 0.0627922373,
+                -  "estimated_diameter_max": 0.140407711
                     },
-             "feet": {
-                  "estimated_diameter_min": 331.5431259047,
-                  "estimated_diameter_max": 741.3529669956
+           -   "feet": {
+                 -  "estimated_diameter_min": 331.5431259047,
+                 -  "estimated_diameter_max": 741.3529669956
                     }
                
 Wireframes: https://whimsical.com/nasa-neo-CiUwRJLUBp6bzwEFuGnF1c
