@@ -6,10 +6,18 @@ Read ALL of the directions before you start. We will know...
 STEP 2: Pitch Your Project
 Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials before your meeting and put them in your README.md:
 
-App Title: NEO
+App Title: Near-Earth-Objects
+
+
 App Description: Pull data on near earth objects from nasa's NEO api over a given timeline. With the fun ability to pick a random object, as well as the largest and fastest object in the given timeframe.
+
+
 API: https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY.
+
+
 API Snippet: 
+
+
 id": "3092154",
   "neo_reference_id": "3092154",
   "name": "(1996 VB3)",
