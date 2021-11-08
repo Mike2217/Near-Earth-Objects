@@ -18,7 +18,7 @@ API: https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-0
 API Snippet: 
 
 
-id": "3092154",
+  id": "3092154",
   "neo_reference_id": "3092154",
   "name": "(1996 VB3)",
   "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3092154",
