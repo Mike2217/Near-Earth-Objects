@@ -1,0 +1,44 @@
+html{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/366025.jpg')
+  
+  
+}
+h1{
+  color: grey;
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+}
+.container{
+  /* max-width: 100% */
+  display: flex;
+  /* flex: 100% */
+  /* width: 100%;
+  height: 100%; */
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+.images{
+  height: 250px;
+  width: 250px;
+}
+
+.buttons{
+background-color: rgba(180, 180, 180, 0.5);
+font-size: 30px;
+display: flex;
+display: inline-flex;
+margin: 10px 0px 0px 193px;
+
+}
+
+
+p{
+  color: white;
+}
