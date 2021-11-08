@@ -31,11 +31,12 @@ h1{
 }
 
 .buttons{
-background-color: rgba(180, 180, 180, 0.5);
+background-color: rgba(46, 49, 49, 0.7);
 font-size: 30px;
 display: flex;
 display: inline-flex;
 margin: 10px 0px 0px 193px;
+color: grey;
 
 }
 .formClass{
