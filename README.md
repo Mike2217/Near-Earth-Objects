@@ -28,8 +28,8 @@ API Snippet:
          - "estimated_diameter_max": 0.2259643771
                     },
              - "meters": {
-                -  "estimated_diameter_min": 101.054341542,
-                -  "estimated_diameter_max": 225.9643771094
+                - "estimated_diameter_min": 101.054341542,
+                - "estimated_diameter_max": 225.9643771094
                     },
              - "miles": {
                 -  "estimated_diameter_min": 0.0627922373,
