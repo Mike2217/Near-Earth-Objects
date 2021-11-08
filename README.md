@@ -15,7 +15,7 @@ App Description: Pull data on near earth objects from nasa's NEO api over a give
 API: https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY.
 
 
-API Snippet: 
+API Snippet: lines are bulleted for format.
 
 - id": "3092154",
 - "neo_reference_id": "3092154",
@@ -27,18 +27,18 @@ API Snippet:
         -  "estimated_diameter_min": 0.1010543415,
          - "estimated_diameter_max": 0.2259643771
                     },
-             - "meters": {
-                - "estimated_diameter_min": 101.054341542,
-                - "estimated_diameter_max": 225.9643771094
-                    },
-             - "miles": {
-                -  "estimated_diameter_min": 0.0627922373,
-                -  "estimated_diameter_max": 0.140407711
-                    },
-           -   "feet": {
-                 -  "estimated_diameter_min": 331.5431259047,
-                 -  "estimated_diameter_max": 741.3529669956
-                    }
+                    - "meters": {
+                    - "estimated_diameter_min": 101.054341542,
+                    -"estimated_diameter_max": 225.9643771094
+                    - },
+                    - "miles": {
+                    - "estimated_diameter_min": 0.0627922373,
+                    - "estimated_diameter_max": 0.140407711
+                    - },
+                    - "feet": {
+                    -  "estimated_diameter_min": 331.5431259047,
+                    -   "estimated_diameter_max": 741.3529669956
+                    -   }
                
 Wireframes: https://whimsical.com/nasa-neo-CiUwRJLUBp6bzwEFuGnF1c
 
