@@ -2,7 +2,7 @@
 
 
 ## App Description: 
-#### Pull data on near earth objects from nasa's NEO api over a given timeline. With the fun ability to pick a random object, as well as the largest and fastest object in the given timeframe.
+#### This application will pull datasets from NASA's Near-Earth-Objects API over a given 7 day period, and will present the data in a neat and concise web application. The application will have the ability to pull random objects from the dataset, as well as selected data types such as the "Largest" object as well as the "Fastest moving" object.
 
 
 ## API: 
@@ -65,13 +65,16 @@
 
 
 ## Post-MVP: 
-- The main goal is to get the functionality of the random Near-Earth-Object working and functional, the intent is to get the "Fastest" and "Largest" object done after as well as a post-mvp effort.
+- The main goal is to get the functionality of the random Near-Earth-Object working properly, the intent is to get the "Fastest" and "Largest" object done after as well as a post-mvp effort.
 
 ## Goals: 
 
-- DAY 1/2: CSS/HTML Framework build/JS API/Classes/Objects.
-- DAY 3/4: CSS Styling, JS API Events
-- DAY 5: Editing, Documentation, and Testing.
+### DAY 1 and 2:
+- CSS/HTML Framework build/JS API/Classes/Objects.
+### DAY 3 and 4:
+- CSS Styling, JS API Events
+### DAY 5:
+- Editing, Documentation, and Testing.
 
 
 
