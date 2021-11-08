@@ -17,10 +17,9 @@ API: https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-0
 
 API Snippet: 
 
-
-  id": "3092154",
-  "neo_reference_id": "3092154",
-  "name": "(1996 VB3)",
+- id": "3092154",
+- "neo_reference_id": "3092154",
+- "name": "(1996 VB3)",
   "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3092154",
   "absolute_magnitude_h": 22.1,
   "estimated_diameter": {
@@ -55,7 +54,7 @@ Post-MVP: Realistically, I doubt I will get the fastest object and largest objec
 
 Goals: 
 
-DAY 1/2: CSS Frame/Get the fetch the API data and get the java script squared away.
+DAY 1/2: CSS Frame/Get the fetch the API data and get the JavaScript squared away.
 DAY 3/4: Entirely CSS
 DAY 5: Work on input fields as well as resource links
 
