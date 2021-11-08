@@ -6,17 +6,56 @@ Read ALL of the directions before you start. We will know...
 STEP 2: Pitch Your Project
 Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials before your meeting and put them in your README.md:
 
-App Title: The name of your app.
-App Description: What your app will do.
-API: The API you are using and the information you plan to get from it.
-API Snippet: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
-Wireframes: The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
-MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
-Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
-Goals: What you plan to accomplish for each day of the project week.
-Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
-Timeframes: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
-Are you interested in styling your README.md to make it look nice? Don't know how to include photos or create links? Check out this Markdown Cheetsheet!
+App Title: NEO
+App Description: Pull data on near earth objects from nasa's NEO api over a given timeline. With the fun ability to pick a random object, as well as the largest and fastest object in the given timeframe.
+API: https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY.
+API Snippet: id": "3092154",
+                "neo_reference_id": "3092154",
+                "name": "(1996 VB3)",
+                "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3092154",
+                "absolute_magnitude_h": 22.1,
+                "estimated_diameter": {
+                    "kilometers": {
+                        "estimated_diameter_min": 0.1010543415,
+                        "estimated_diameter_max": 0.2259643771
+                    },
+                    "meters": {
+                        "estimated_diameter_min": 101.054341542,
+                        "estimated_diameter_max": 225.9643771094
+                    },
+                    "miles": {
+                        "estimated_diameter_min": 0.0627922373,
+                        "estimated_diameter_max": 0.140407711
+                    },
+                    "feet": {
+                        "estimated_diameter_min": 331.5431259047,
+                        "estimated_diameter_max": 741.3529669956
+                    }
+               
+Wireframes: https://whimsical.com/nasa-neo-CiUwRJLUBp6bzwEFuGnF1c
+
+MVP: 
+HTML, CSS, JAVASCRIPT: Pretty straightforward
+Flexbox for images as well as buttons and input fields
+Axios pulls data from NASA API, returns that information to text field next to image.
+Figured I'd just wrap the images in media query, it wont turn out as planned, so I'll spend a good amount of time making it available for media
+
+
+Post-MVP: Realistically, I doubt I will get the fastest object and largest object done in time, so I'd like to get those done if I have extra time.
+
+
+Goals: 
+
+DAY 1/2: CSS Frame/Get the fetch the API data and get the java script squared away.
+DAY 3/4: Entirely CSS
+DAY 5: Work on input fields as well as resource links
+
+
+
+
+Priority Matrix/Timeframes: Table in wireframe link above.
+
+
 
 STEP 3: Make a New Repo
 Make a new personal GitHub repo for your project. DO NOT FORK THIS REPO.
