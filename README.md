@@ -57,27 +57,32 @@
 
 
 ## MVP: 
-- Using HTML to get the skeleton framework started
-- Using CSS to get the framework formatted correctly
+- Utilize HTML to get the skeleton framework started
+- Utilize CSS to get the framework formatted correctly
 - Flexbox for the inlign images as well as buttons and input fields
 - Axios pulls data from NASA API, returns that information to text field next to image.
-- Figured I'd just wrap the images in media query, it wont turn out as planned, so I'll spend a good amount of time making it available for media
+- Utilize JavaScript to implement events
 
 
 ## Post-MVP: 
-- The main goal is the get the functionality of the random Near-Earth-Object working and functional, the intent is to get the "Fastest" and "Largest" object done after as well as a post-mvp effort.
+- The main goal is to get the functionality of the random Near-Earth-Object working and functional, the intent is to get the "Fastest" and "Largest" object done after as well as a post-mvp effort.
 
 ## Goals: 
 
-- DAY 1/2: CSS Frame/Get the fetch the API data and get the JavaScript squared away.
-- DAY 3/4: Entirely CSS
-- DAY 5: Work on input fields as well as resource links
+- DAY 1/2: CSS/HTML Framework build/JS API/Classes/Objects.
+- DAY 3/4: CSS Styling, JS API Events
+- DAY 5: Editing, Documentation, and Testing.
 
 
 
+## Timeframes: 
 
-## Priority Matrix/Timeframes: 
-- Table in wireframe link above.
+![image](https://user-images.githubusercontent.com/92862291/140780310-8ef34864-e9bb-444a-9c78-1d8a08ce35fc.png)
+
+## Priority Matrix
+
+![image](https://user-images.githubusercontent.com/92862291/140779882-01d03da8-da9f-4871-84e3-2672f35a9d7f.png)
+
 
 
 
