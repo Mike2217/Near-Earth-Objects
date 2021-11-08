@@ -34,8 +34,10 @@
 - "estimated_diameter_max": 741.3529669956
 - }
                
+               
 ## Wireframes: 
 - https://whimsical.com/nasa-neo-CiUwRJLUBp6bzwEFuGnF1c
+
 
 ## MVP: 
 - HTML, CSS, JAVASCRIPT: Pretty straightforward
