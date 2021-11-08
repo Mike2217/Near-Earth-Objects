@@ -34,7 +34,7 @@ API Snippet: lines are bulleted for format.
                     - "miles": {
                     - "estimated_diameter_min": 0.0627922373,
                     - "estimated_diameter_max": 0.140407711
-                    - },
+                    },
                     - "feet": {
                     -  "estimated_diameter_min": 331.5431259047,
                     -   "estimated_diameter_max": 741.3529669956
