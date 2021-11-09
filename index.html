@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <!-- <link rel='https://api.nasa.gov/neo/rest/v1/feed?start_date=2021-10-17&end_date=2021-10-17&api_key=EbHvezIjiHvr628IlqtkTq3qC1BUKDla9pegqpkD'> -->
   <script defer src="./app.js"></script>
   <link rel="stylesheet" href="style.css" />
   <title>NEO</title>
@@ -18,25 +19,30 @@
 </style>
 
 <body>
+  
   <h1>NASA NEAR-EARTH-OBJECTS</h1>
   <div class='container'>
-    <img src='https://pngimg.com/uploads/comet/comet_PNG16.png' class='images' id='comet'>
+    <img src='https://pngimg.com/uploads/comet/comet_PNG16.png' class='images' id='fastestObject'>
     <img src='https://d2pn8kiwq2w21t.cloudfront.net/original_images/imagesasteroid20180723main-animation-16.gif'
-      class='images'>
-    <img src='https://freepngimg.com/thumb/universe/33922-6-asteroid.png' class='images' id='asteroid'>
+      class='images' id='randomObject'>
+    <img src='https://freepngimg.com/thumb/universe/33922-6-asteroid.png' class='images' id='largestObject'>
   </div>
-  <div id='ButtonContainer'>
+  <div id='buttonContainer'>
     <button type='button' class='buttons' id='firstButton'>Fastest Object</button>
     <button type='button' class='buttons' id='secondButton'>Random Object</button>
     <button type='button' class='buttons' id='thirdButton'>Largest Object</button>
   </div>
   <h4></h4>
   <div class='formClass'>
-    <form>
-      <input type='text' type='submit' type='reset' class='dateInputClass' id='dateInput1' name='dateEntry1' placeholder="FROM YYYYMMDD">
-      <input type='text' type='submit' type='reset' class='dateInputClass' id='dateInput2' name='dateEntry2' placeholder='TO YYYYMMDD'>
+    <form id='dataForm'>
+      <input type='date' type='reset' class='dateInputClass' id='dateInput1' name='dateEntry1' placeholder="FROM YYYYMMDD">
+      <!-- <input type='text' type='submit' type='reset' class='dateInputClass' id='dateInput2' name='dateEntry2' placeholder='TO YYYYMMDD'> -->
+      <input type='submit'  class='dateInputClass' id='dateInputButton'>Submit</button>
     </form>
   </div>
+  <textarea id='objectDataField' rows='10' cols='50'>
+
+  </textarea>
 </body>
 
 </html>

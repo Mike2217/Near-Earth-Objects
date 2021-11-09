@@ -28,6 +28,8 @@ h1{
 .images{
   height: 250px;
   width: 250px;
+  /* border: solid;
+  border-color:rgba(180, 180, 180, 0.5) */
 }
 
 .buttons{
@@ -37,8 +39,14 @@ display: flex;
 display: inline-flex;
 margin: 10px 0px 0px 193px;
 color: grey;
-
 }
+.buttonChange{
+  height: 325px;
+  width: 325px;
+  border: solid;
+  border-color: red;
+}
+
 .formClass{
   display: block;
   text-align: center;
@@ -47,8 +55,24 @@ color: grey;
 display: inline-block;
 margin-top: 40px;
 height: 30px;
-width: 200px;
 text-align: center;
 background-color: rgba(180, 180, 180, 0.5);
 font-size: 18px;
+outline: solid;
+outline-color: white;
+color: white;
+}
+#dateInput1{
+  width: 275px;
+}
+
+#dateInputButton{
+/* margin-left: -4px; */
+width: 85px;
+height: 35px;
+}
+
+#objectDataField{
+  display: flex;
+  margin-top: 500px;
 }
