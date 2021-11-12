@@ -46,10 +46,11 @@ getSubmit.addEventListener('submit', (e) => {
       // console.log(randomObjectApproachDate)
       // console.log(randomObjectRelativeVelocity)
       // console.log(randomObjectMissDistance)
-      let randomObjectData = (`Object Name:${randomObjectName} <br/> Object Diameter: ${randomObjectDiameter} <br/>  Objects Relative Velocity: ${randomObjectSpeed}
-      <br/> Object Miss Distance: ${randomObjectMissDistance} <br/> Closest Approach Date: ${randomObjectApproachDate}`)
+      let randomObjectData = (`Object Diameter: ${randomObjectDiameter} \n  Objects Relative Velocity: ${randomObjectSpeed}
+      Object Miss Distance: ${randomObjectMissDistance} \n Closest Approach Date: ${randomObjectApproachDate}`)
       console.log(randomObjectData)
       // document.getElementById('objectDataField').innerText = randomObjectData
+      document.getElementById('objectDataFieldTitle').innerText = randomObjectName
       document.getElementById('objectDataField').innerText = randomObjectData
     } catch (err) {
       alert(err)

@@ -5,7 +5,8 @@ html{
 }
 
 body {
-  background-image: url('https://wallpaperaccess.com/full/366025.jpg')
+  background-image: url('https://wallpaperaccess.com/full/366025.jpg');
+  background-size: cover;
   
 
 }
@@ -71,8 +72,32 @@ color: white;
 width: 85px;
 height: 35px;
 }
+/* .objectDataFieldTitle{
+  display: flex;
+  justify-content: center;
+   */
+/* } */
+.objectDataFieldClass{
+  height: 500px;
+   display: flex;
+   justify-content: flex-end;
+  border: solid 3px orange;
+  color: white;
+  background-image: url('https://www.wallpaperflare.com/static/396/762/488/photography-artwork-meteor-shower-wallpaper.jpg');
+  background-size: cover;
+  /* justify-content: ; */
+}
+#objectDataFieldTitle{
+  font-size: 40px;
+  display:flex;
+  border: solid 3px blue;
+  height: 20%;
+}
 
 #objectDataField{
-  display: flex;
-  margin-top: 500px;
+  display:  flex;
+  border: solid 3px red;
+  max-width: 50%;
+  height: 40%;
+
 }
