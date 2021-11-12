@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
- <!-- <link rel='https://api.nasa.gov/neo/rest/v1/feed?start_date=2021-10-17&end_date=2021-10-17&api_key=EbHvezIjiHvr628IlqtkTq3qC1BUKDla9pegqpkD'> -->
+  <!-- <link rel='https://api.nasa.gov/neo/rest/v1/feed?start_date=2021-10-17&end_date=2021-10-17&api_key=EbHvezIjiHvr628IlqtkTq3qC1BUKDla9pegqpkD'> -->
   <script defer src="./app.js"></script>
   <link rel="stylesheet" href="style.css" />
   <title>NEO</title>
@@ -19,7 +19,7 @@
 </style>
 
 <body>
-  
+
   <h1>NASA NEAR-EARTH-OBJECTS</h1>
   <div class='container'>
     <img src='https://pngimg.com/uploads/comet/comet_PNG16.png' class='images' id='fastestObject'>
@@ -35,16 +35,17 @@
   <h4></h4>
   <div class='formClass'>
     <form id='dataForm'>
-      <input type='date' type='reset' class='dateInputClass' id='dateInput1' name='dateEntry1' placeholder="FROM YYYYMMDD">
+      <input type='date' type='reset' class='dateInputClass' id='dateInput1' name='dateEntry1'
+        placeholder="FROM YYYYMMDD">
       <!-- <input type='text' type='submit' type='reset' class='dateInputClass' id='dateInput2' name='dateEntry2' placeholder='TO YYYYMMDD'> -->
-      <input type='submit'  class='dateInputClass' id='dateInputButton'>Submit</button>
+      <input type='submit' class='dateInputClass' id='dateInputButton'>Submit</button>
     </form>
   </div>
-  <div class= 'objectDataFieldClass'>
-  <p id='objectDataFieldTitle'></p>
-  <p id='objectDataField' rows='10' cols='50'>
-  </p>
-</div>
+  <div class='objectDataFieldClass'>
+    <p id='objectDataFieldTitle'></p>
+    <div class='objectPicture'></div>
+    <p id='objectDataField' rows='10' cols='50'></p>
+  </div>
 </body>
 
 </html>
