@@ -1,14 +1,15 @@
 html{
   max-width: 100%;
   max-height: 100%;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
-body {
+#backgroundField{
   background-image: url('https://wallpaperaccess.com/full/366025.jpg');
   background-size: cover;
-  
-
+}
+#headerTitle{
+  padding-top: 30px;
 }
 h1{
   color: grey;
@@ -17,29 +18,55 @@ h1{
   font-size: 44px;
 }
 .container{
-  /* max-width: 100% */
   display: flex;
-  /* flex: 100% */
-  /* width: 100%;
-  height: 100%; */
   justify-content: center;
-  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
   padding-top: 100px;
+  border: solid 3px purple;
 }
+.fastestContainer{
+  width: 30%;
+  border: solid blue 3px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.randomContainer{
+  width: 30%;
+  border: solid blue 3px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.largestContainer{
+  width: 30%;
+  border: solid blue 3px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .images{
   height: 250px;
   width: 250px;
+  max-width: 100%;
   /* border: solid;
   border-color:rgba(180, 180, 180, 0.5) */
+  border: solid 3px green;
+
 }
 
 .buttons{
 background-color: rgba(46, 49, 49, 0.7);
 font-size: 30px;
 display: flex;
-display: inline-flex;
-margin: 10px 0px 0px 193px;
 color: grey;
+border: solid orange 3px;
 }
 .buttonChange{
   height: 325px;
@@ -112,3 +139,28 @@ height: 35px;
   height: 250px;
   width: 250px;
 }
+
+@media screen and (max-width: 480px)
+{
+  html{
+    /* background: black; */
+  }
+    .container{
+      /* background-color: blue; */
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: left;
+      align-items: left;
+    }
+    .fastestContainer{
+      width: 100%;
+      }
+      .randomContainer{
+      width: 100%;
+      }
+      .largestContainer{
+      width: 100%;
+      }
+      .objectDataFieldClass{
+      overflow: scroll;
+  }

@@ -19,20 +19,25 @@
 </style>
 
 <body>
-
-  <h1>NASA NEAR-EARTH-OBJECTS</h1>
+<div id='backgroundField'>
+  <h1 id='headerTitle'>NASA NEAR-EARTH-OBJECTS</h1>
+  <div id ='selector-container'>
   <div class='container'>
+    <div class='fastestContainer'>
     <img src='https://pngimg.com/uploads/comet/comet_PNG16.png' class='images' id='fastestObject'>
+    <button type='button' class='buttons' id='firstButton'>Fastest Object</button>
+    </div>
+    <div class='randomContainer'>
     <img src='https://d2pn8kiwq2w21t.cloudfront.net/original_images/imagesasteroid20180723main-animation-16.gif'
       class='images' id='randomObject'>
+      <button type='button' class='buttons' id='secondButton'>Random Object</button>
+      </div>
+      <div class='largestContainer'>
     <img src='https://freepngimg.com/thumb/universe/33922-6-asteroid.png' class='images' id='largestObject'>
-  </div>
-  <div id='buttonContainer'>
-    <button type='button' class='buttons' id='firstButton'>Fastest Object</button>
-    <button type='button' class='buttons' id='secondButton'>Random Object</button>
     <button type='button' class='buttons' id='thirdButton'>Largest Object</button>
+    </div>
   </div>
-  <h4></h4>
+</div>
   <div class='formClass'>
     <form id='dataForm'>
       <input type='date' type='reset' class='dateInputClass' id='dateInput1' name='dateEntry1'
@@ -41,10 +46,11 @@
       <input type='submit' class='dateInputClass' id='dateInputButton'>Submit</button>
     </form>
   </div>
+  </div>
   <div class='objectDataFieldClass'>
     <p id='objectDataFieldTitle'></p>
     <div class='objectPicture'></div>
-    <p id='objectDataField' rows='10' cols='50'></p>
+    <p id='objectDataField'></p>
   </div>
 </body>
 

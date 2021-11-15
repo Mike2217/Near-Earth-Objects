@@ -39,8 +39,7 @@ const randomGallery = ['https://solarsystem.nasa.gov/system/resources/detail_fil
   'https://solarsystem.nasa.gov/system/resources/detail_files/782_PIA02487.jpg',
   'https://solarsystem.nasa.gov/system/resources/detail_files/511_pia18823.jpg',
   'https://solarsystem.nasa.gov/system/resources/detail_files/788_PIA18899_modest.jpg',
-  'https://solarsystem.nasa.gov/system/resources/detail_files/2241_full_%281032x1032%29.gif',
-  'https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg']
+  'https://solarsystem.nasa.gov/system/resources/detail_files/2241_full_%281032x1032%29.gif']
   
 console.log(randomGallery)
 
@@ -93,8 +92,7 @@ getSubmit.addEventListener('submit', (e) => {
       // console.log(randomObjectRelativeVelocity)
       // console.log(randomObjectMissDistance)
       let randomObjectName = (`Near Earth Object: ${randomObject.name}`)
-      let randomObjectData = (`Object Diameter: ${randomObjectDiameter} \n  Objects Relative Velocity: ${randomObjectSpeed}miles per hour \n
-      Object Miss Distance: ${randomObjectMissDistance} miles \n Closest Approach Date: ${randomObjectApproachDate}`)
+      let randomObjectData = (`Object Diameter: ${randomObjectDiameter} \nObjects Relative Velocity: ${randomObjectSpeed}miles per hour \nObject Miss Distance: ${randomObjectMissDistance} miles \nClosest Approach Date: ${randomObjectApproachDate}`)
       // console.log(randomObjectData)
       // document.getElementById('objectDataField').innerText = randomObjectData
       let objectPicture = document.querySelector('.objectPicture')
