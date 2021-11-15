@@ -92,7 +92,7 @@ getSubmit.addEventListener('submit', (e) => {
       // console.log(randomObjectRelativeVelocity)
       // console.log(randomObjectMissDistance)
       let randomObjectName = (`Near Earth Object: ${randomObject.name}`)
-      let randomObjectData = (`Object Diameter: ${randomObjectDiameter} \nObjects Relative Velocity: ${randomObjectSpeed}miles per hour \nObject Miss Distance: ${randomObjectMissDistance} miles \nClosest Approach Date: ${randomObjectApproachDate}`)
+      let randomObjectData = (`Object Diameter: ${randomObjectDiameter} \nObjects Relative Velocity: ${randomObjectSpeed} miles per hour \nObject Miss Distance: ${randomObjectMissDistance} miles \nClosest Approach Date: ${randomObjectApproachDate}`)
       // console.log(randomObjectData)
       // document.getElementById('objectDataField').innerText = randomObjectData
       let objectPicture = document.querySelector('.objectPicture')

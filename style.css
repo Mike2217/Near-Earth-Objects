@@ -23,11 +23,11 @@ h1{
   align-items: center;
   flex-flow: row wrap;
   padding-top: 100px;
-  border: solid 3px purple;
+  /* border: solid 3px purple; */
 }
 .fastestContainer{
   width: 30%;
-  border: solid blue 3px;
+  /* border: solid blue 3px; */
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -35,7 +35,7 @@ h1{
 }
 .randomContainer{
   width: 30%;
-  border: solid blue 3px;
+  /* border: solid blue 3px; */
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -43,7 +43,7 @@ h1{
 }
 .largestContainer{
   width: 30%;
-  border: solid blue 3px;
+  /* border: solid blue 3px; */
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -57,7 +57,7 @@ h1{
   max-width: 100%;
   /* border: solid;
   border-color:rgba(180, 180, 180, 0.5) */
-  border: solid 3px green;
+  /* border: solid 3px green; */
 
 }
 
@@ -66,7 +66,7 @@ background-color: rgba(46, 49, 49, 0.7);
 font-size: 30px;
 display: flex;
 color: grey;
-border: solid orange 3px;
+/* border: solid orange 3px; */
 }
 .buttonChange{
   height: 325px;
@@ -110,7 +110,7 @@ height: 35px;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  border: solid 3px orange;
+  /* border: solid 3px orange; */
   color: white;
   background-image: url('https://www.wallpaperflare.com/static/396/762/488/photography-artwork-meteor-shower-wallpaper.jpg');
   background-size: cover;
@@ -121,7 +121,7 @@ height: 35px;
   font-size: 40px;
   display:flex;
   justify-content: center;
-  border: solid 3px blue;
+  /* border: solid 3px blue; */
 }
 
 #objectDataField{
@@ -129,18 +129,18 @@ height: 35px;
   white-space: pre-wrap;
   font-size: 20px;
   height: 40%;
-  border: solid 3px red;
+  /* border: solid 3px red; */
 
 }
 
 .objectPicture{
   display: flex;
-  border: green 8px solid;
+  /* border: green 8px solid; */
   height: 250px;
   width: 250px;
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 600px)
 {
   html{
     /* background: black; */
